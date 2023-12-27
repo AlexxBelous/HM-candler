@@ -161,7 +161,22 @@ ul {
         padding-right: 10px;
     }
     .header__menu-list {
-        display: none;
+        max-width: 153px;
+        background-color: #7B6152;
+        color: #FFF8F3;
+        flex-direction: column;
+        padding: 25px 35px 25px 45px;
+        gap: 20px 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-110%);
+        transition: transform .5s ease-in-out;
+        z-index: 5;
+
+    }
+    .header__menu-list.menu--open {
+        transform: translateY(0);
     }
 
     .menu__btn {
