@@ -96,6 +96,7 @@ button {
 
 .main {
     background-color: #FFF8F3;
+    overflow-x: clip;
 }
 
 .top {
@@ -188,6 +189,16 @@ button {
     .container {
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .top__content {
+        width: 333px;
+        padding: 95px 0 70px;
+    }
+    .top__img-l {
+        width: 655px;
+    }
+    .top__img {
+        left: 300px ;
     }
 }
 
